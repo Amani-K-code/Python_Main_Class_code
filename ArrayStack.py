@@ -1,3 +1,7 @@
+
+class Empty(Exception): #Error when stack is empty
+    pass
+
 class ArrayStack:
 
     def __init__(self):
